@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Heap visualizer</title>
+    <link rel="stylesheet" href="styles.css" type="text/css">
+  </head>
+  <body>
+    <main>
+      <div class="settings">
+        <form onsubmit="render(event)" name="numbers-form">
+          <input name="numbers" class="heap-input" value="23,17,14,6,13,10,1,5,7,12">
+          <button type="submit">
+            Visualize
+          </button>
+        </form>
+      </div>
+
+      <div class="canvas-container">
+        <canvas id="can"></canvas>
+      </div>
+    </main>
+
+    <script src="index.js"></script>
+  </body>
+</html>
